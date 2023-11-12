@@ -12,21 +12,21 @@ body {
 #content {
     min-height: 100vh;
 
-    display: grid;
-    grid-template-rows: repeat(6, 1fr); 
+    display: flex;
     flex-direction: column;
-}
-
-header {
-    align-self: start;
-    grid-row-start: 1;
+    align-items: center;
 }
 
 header, footer {
     display: flex;
     flex-direction: column;
+    justify-content: center; 
+}
+
+header {
+    margin-bottom: 10px;
+    align-self: center;
     align-items: center;
-    justify-content: center;
 }
 
 #headertxt, .waffle-headline, footer {
@@ -41,13 +41,13 @@ header, footer {
 #headertxt {
     font-size: 1.9em;
     font-weight: bold;
+
 }
 
 .waffle-headline {
     display: grid;
     grid-template-columns: clamp(20px, 40px, 60px) clamp(290px, 70%, 500px);
     grid-template-rows: repeat(2, min-content);
-    align-items: flex-end;
     justify-content: center;
     column-gap: 15px;
 
@@ -67,30 +67,29 @@ img {
     border: 1px solid;
 
     grid-row: span 2;
-    align-self: flex-start ;
+    align-self: flex-start;
 }
 
-
 main {
-    align-self: center;
-    justify-self: center;
-    grid-row-start: 2;
-    grid-row: span 4;
-
-    padding: 10px;
-    margin-top: -15px;
-
+    padding: 15px;
+    
+    flex-grow: 1;
 }
 
 #catalog {
-    width: clamp(75vw, 70vw, 80vw);
+    width: clamp(10vw, 550px, 90vw);
     height: 65vh;
     background-color: rgba(211, 133, 133, 0.445);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
-    align-self: end;
-    grid-row-start: 6;
+    margin-top: auto;
 }
+
+
 
 
