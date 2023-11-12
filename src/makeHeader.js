@@ -1,4 +1,4 @@
-function makeHeader() {
+function header() {
     const mainElement = document.createElement("header");
 
     const headerText = document.createElement("span");
@@ -28,4 +28,4 @@ function makeHeader() {
     return mainElement;
 }
 
-export default makeHeader();
+export default header();
