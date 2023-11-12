@@ -1,5 +1,7 @@
 import header from "./makeHeader";
 import main from "./makeMain";
 
-document.body.append(header, main);
+const content = document.getElementById("content");
+
+content.append(header, main);
 
