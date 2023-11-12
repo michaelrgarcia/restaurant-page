@@ -24,6 +24,8 @@ function makeHeader() {
 
     mainElement.appendChild(headerText);
     mainElement.appendChild(subsection);
+
+    return mainElement;
 }
 
 export default makeHeader();
