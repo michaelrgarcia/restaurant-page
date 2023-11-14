@@ -42,6 +42,7 @@ header {
     font-size: 1.9em;
     font-weight: bold;
 
+    user-select: none;
 }
 
 .waffle-headline {
@@ -55,6 +56,8 @@ header {
     font-style: italic;
 
     width: 50vw;
+
+    user-select: none;
 }
 
 .waffle-headline > p + p {
@@ -76,14 +79,48 @@ main {
     flex-grow: 1;
 }
 
+#tabsmenu {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #4d1f1fb6;
+}
+
+#tabsmenu li {
+    color: white;
+
+    user-select: none;
+    cursor: pointer;
+
+    border: 1px solid;
+    border-bottom: none;
+
+    width: 100%;
+    height: 20px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#tabsmenu li:hover {
+    background-color: rgba(117, 66, 66, 0.6);
+}
+
+
 #catalog {
     width: clamp(10vw, 550px, 90vw);
     height: 65vh;
+
     background-color: rgba(211, 133, 133, 0.445);
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    overflow: auto;
 }
 
 footer {
