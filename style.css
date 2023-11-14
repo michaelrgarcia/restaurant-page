@@ -109,8 +109,7 @@ main {
     background-color: rgba(117, 66, 66, 0.6);
 }
 
-
-#catalog {
+#menu {
     width: clamp(10vw, 550px, 90vw);
     height: 65vh;
 
@@ -118,9 +117,45 @@ main {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    
     overflow: auto;
+}
+
+#menu > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.5em;
+
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#menu > div > div > span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-weight: bold;
+}
+
+#hours ul {
+    list-style-type: none;
+}
+
+#info > p:first-child {
+    font-weight: bold;
+}
+
+#info > p:nth-child(2) {
+    width: 200px;
+
+    font-size: 0.8em;
 }
 
 footer {
