@@ -1,3 +1,5 @@
+import home from "./renderHome";
+
 function main() {
     const mainElement = document.createElement("main");
 
@@ -18,6 +20,7 @@ function main() {
 
     const scrollMenu = document.createElement("div");
     scrollMenu.id = "menu"
+    scrollMenu.appendChild(home);
 
     mainElement.appendChild(tabs);
     mainElement.appendChild(scrollMenu);
