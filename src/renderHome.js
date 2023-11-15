@@ -6,7 +6,7 @@ function home() {
     hoursTitleText.textContent = "Hours";
 
     const clockIcon = document.createElement("img");
-    clockIcon.src = "../imgs/3b81284324312a12f8e43e58f54c0efd-removebg-preview.png";
+    clockIcon.src = "../dist/imgs/3b81284324312a12f8e43e58f54c0efd-removebg-preview.png";
     clockIcon.alt = "A clock.";
 
     hoursTitleText.appendChild(clockIcon);
