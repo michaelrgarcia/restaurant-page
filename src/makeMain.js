@@ -5,15 +5,15 @@ function main() {
     tabs.id = "tabsmenu";
 
     for (let i = 0; i < 3; i++) {
-        let test = document.createElement("li");
+        let tab = document.createElement("li");
         if (i === 0) {
-            test.textContent = "Home";
+            tab.textContent = "Home";
         } else if (i === 1) {
-            test.textContent = "Contact";
+            tab.textContent = "Contact";
         } else if (i === 2) {
-            test.textContent = "Menu"
+            tab.textContent = "Menu"
         }
-        tabs.appendChild(test);
+        tabs.appendChild(tab);
     } 
 
     const scrollMenu = document.createElement("div");
