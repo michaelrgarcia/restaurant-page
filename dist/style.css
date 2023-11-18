@@ -121,7 +121,7 @@ main {
     overflow: auto;
 }
 
-#menu > div > div {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,6 +157,39 @@ main {
     width: 200px;
 
     font-size: 0.8em;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: bold;
+}
+
+.name-pic {
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #ffffff86;
+}
+
+.other-info {
+    text-align: left;
+
+    align-self: start;
+}
+
+#red-pic {
+    background-color: rgb(255, 0, 0);  
+}
+
+#velvet-pic {
+    background-color: rgb(90, 0, 0);  
+}
+
+#maroon-pic {
+    background-color: #800000;
 }
 
 footer {
