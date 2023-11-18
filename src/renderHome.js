@@ -13,6 +13,7 @@ function home() {
 
     const hours = document.createElement("div");
     hours.id = "hours";
+    hours.classList.add("card");
 
     const days = document.createElement("ul");
 
@@ -50,6 +51,7 @@ function home() {
 
     const info = document.createElement("div");
     info.id = "info";
+    info.classList.add("card");
 
     const infoTitleText = document.createElement("p");
     infoTitleText.textContent = "Info";
