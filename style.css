@@ -124,6 +124,7 @@ main {
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 
@@ -194,6 +195,40 @@ main {
 
 #maroon-pic {
     background-color: #800000;
+}
+
+.card.heading {
+    padding: 10px;
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.item-info > p:nth-child(1) {
+    font-weight: bold;
+}
+
+.item-info > p:nth-child(2),
+.item-info > img {
+    width: 200px;
+}
+
+.item-info > p:nth-child(2) {
+    align-self: start;
+
+    font-size: .8em;
+}
+
+.item-info > img {
+    align-self: center;
 }
 
 footer {
