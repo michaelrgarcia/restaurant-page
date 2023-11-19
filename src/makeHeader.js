@@ -9,7 +9,7 @@ function header() {
     subsection.classList.add("waffle-headline");
 
     const waffleimg = document.createElement("img");
-    waffleimg.src = "../dist/waffle-pancake-clip-art-element-transparent-background-png.webp";
+    waffleimg.src = "waffle-pancake-clip-art-element-transparent-background-png.webp";
     waffleimg.alt = "A delicious waffle.";
 
     const quote = document.createElement("p");
