@@ -57,7 +57,7 @@ function home() {
     infoTitleText.textContent = "Info";
 
     const description = document.createElement("p");
-    description.textContent = "If it wasn't obvious from our name, we only serve red velvet waffles. Over the years, we've expanded our menu to include many other things red velvet! It's guaranteed that there's something that you'll love! Just have a browse around and see what catches your eye!";
+    description.textContent = "If it wasn't obvious from our name, we only serve red velvet waffles. Over the years, we've expanded our menu to include many other things red velvet! It's guaranteed that there's something that you'll love‒just have a browse around and see what catches your eye!";
 
     info.append(infoTitleText, description);
 
