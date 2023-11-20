@@ -1,13 +1,12 @@
 import header from "./makeHeader";
 import main from "./makeMain";
-import footer from "./makeFooter";
 import home from "./renderHome";
 import contact from "./renderContact";
 import menu from "./renderMenu";
 
 const content = document.getElementById("content");
 
-content.append(header, main, footer);
+content.append(header, main);
 
 const display = document.querySelector("#menu");
 const homeTab = document.querySelector("#tabsmenu > li:nth-child(1)");
