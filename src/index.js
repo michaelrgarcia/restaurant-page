@@ -3,6 +3,7 @@ import main from "./makeMain";
 import footer from "./makeFooter";
 import home from "./renderHome";
 import contact from "./renderContact";
+import menu from "./renderMenu";
 
 const content = document.getElementById("content");
 
@@ -25,5 +26,6 @@ contactTab.addEventListener("click", function() {
 
 menuTab.addEventListener("click", function() { 
     display.replaceChildren();
+    display.appendChild(menu);
 })
 
